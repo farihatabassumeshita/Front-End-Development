@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML TABLE</title>
+    </head>
+
+    <body>
+
+        <h1>USER FORM</h1>
+        <form action="#">
+            <fieldset>
+                <legend>User Data</legend>
+
+                <!-- User Name -->
+                <label for="Name">Your Name</label>
+                <input type="text" id="Name" placeholder="William">
+                <br><br>
+
+                <!-- User Email  -->
+                <label for="Email">Your Email</label>
+                <input type="email" id="Email" placeholder="william@gmail.com">
+                <br><br>
+
+                <!-- User Phone  -->
+                <label for="Phone">Your Phone</label>
+                <input type="number" id="Phone" placeholder="+880-XXX-XXXX-123">
+                <br><br>
+
+                <!-- User Password  -->
+                <label for="Password">Password</label>
+                <input type="password" id="Password" placeholder="Your Password">
+                <br><br>
+
+                <!-- Select Country  -->
+                <label for="Country">Your Country</label>
+                <select id="Country">
+                    <option value="india">india</option>
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="london">london</option>
+                </select>
+                <br>
+
+                <!-- User Gender  -->
+                <p>Gender:</p>
+                <input type="radio" name="gender" id="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="Female">
+                <label for="Female">Female</label>
+                <br><br>
+
+                <!-- User DateofBirth  -->
+                <label for="DateofBirth">Date of Birth:</label>
+                <input type="date" id="DateofBirth">
+                <br>
+
+                <!-- Upload File  -->
+                <p>Upload Your Image:</p>
+                <label for="File"></label>
+                <input type="file" id="File">
+                <br><br>
+
+                <!-- Comment Box  -->
+                <label for="Comment">Any message for admin?</label>
+                <br>
+                <textarea id="Comment" cols="30" rows="5"></textarea>
+                <br><br>
+
+                <!-- CheckBox -->
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Agree to our <a href="#">privacy and policy</a></label>
+
+                <!-- Reset Button  -->         
+                <br><br>
+                <input type="reset" value="Reset">
+
+                <!-- Submit Form Button -->
+                <input type="submit" value="Submit Form">
+                <br><br>
+
+            </fieldset>
+
+        </form>
+
+        <h2>DATA TABLE</h2>
+        <!--Table Header  -->
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+
+            <!-- 1st data -->
+            <tr>
+                <td>Mr. William</td>
+                <td>London</td>
+                <td>+123455</td>
+                <td>william.london@gmail.com</td>
+            </tr>
+
+            <!-- 2nd Data -->
+            <tr>
+                <td>Mr. Thomas</td>
+                <td>New York</td>
+                <td>+177885</td>
+                <td>thomas.newyork@gmail.com</td>
+            </tr>
+
+            <!-- 3rd Data -->
+            <tr>
+                <td>Ms. Monica</td>
+                <td>Paris</td>
+                <td>+885522</td>
+                <td>monica.paris@gmail.com</td>
+            </tr>
+
+            <!-- 3rd Data -->
+            <tr>
+                <td>Ms. Lilly</td>
+                <td>Canada</td>
+                <td>+775566</td>
+                <td>lilly.canada@gmail.com</td>
+            </tr>
+
+        </table>
+    </body>
+</html>

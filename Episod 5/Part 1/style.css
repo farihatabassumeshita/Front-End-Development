@@ -1,0 +1,80 @@
+h1{
+    background: #1C3180;
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+    /* font-family: ; */
+    display: block;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background: white;
+    padding:  80px 156px 81px 156px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 48px;
+    color: black;
+}
+
+img{
+    width: 100%;
+    margin-top: 26px;
+}
+
+.vit{
+    font-size: 24px;
+    color: black;
+    /* font-family: ; */
+    margin-top: 32px;
+}
+
+.vitamin{
+    color: #FE630E;
+}
+
+footer{
+    background: #1C3180;
+    padding: 67px 156px 68px 156px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-size: 48px;
+    color: #FE630E;
+    font-weight: bold;
+}
+
+.footer{
+    font-size: 24px;
+    color: white;
+    margin-top: 44px;
+}
+
+.more{
+    background: #FE630E;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    padding: 17px 22px 17px 23px;
+    text-align: center;
+}
+
+.contact{
+    background: white;
+    font-size: 24px;
+    color: #1C3180;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    padding: 17px 17px 17px 16px;
+    text-align: center;
+    margin-left: 17px;
+
+}

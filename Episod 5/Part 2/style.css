@@ -1,0 +1,119 @@
+.header{
+    background: #FEFFF5;
+}
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 48px;
+    color: #0A8080;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 27px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-para{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 27px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-a{
+    background: #0A8080;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 39px 8px 40px;
+    display: block;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
+
+}
+
+.image2{
+    padding-top: 23px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 36px;
+    color: #0A8080;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 65px;
+    padding-bottom: 78px;
+}
+
+.box1{
+    background: #FEFFF5;
+    padding: 43px 112px 31px 39px;
+    display: block;
+    width: 942px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgb(0, 0, 0, 0.15);
+}
+
+.box2{
+    background: #FEFFF5;
+    padding: 43px 112px 31px 39px;
+    display: block;
+    width: 942px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgb(0, 0, 0, 0.15);
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 16px;
+}
+
+.box-para{
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 22px;
+}
+
+.box-a{
+    background: #0A8080;
+    width: 150px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
+    text-decoration: none;
+    padding: 8px 26px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer{
+    background: #0A8080;
+    margin-top: 86px;
+    padding: 13px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
