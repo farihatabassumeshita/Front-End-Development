@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 984px;
+    margin: auto;
+}
+
+.hero-section{
+    display: flex;
+    padding: 92px 20px;
+    gap: 50px;
+}
+
+.content, .hero-img{
+    flex-basis: 50%;
+}
+
+.hero-img{
+    text-align: right;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:568px){
+    .hero-section{
+        flex-direction: column;
+    }
+}
+
+h1{
+    color: #385F96;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding-top: 151px;
+}
+
+.hero-1-para{
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 32px;
+}
