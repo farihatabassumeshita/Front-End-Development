@@ -43,7 +43,6 @@ h1{
     font-size: 48px;
     font-family: 'Poppins', sans-serif; 
     margin: 0;
-    padding-top: 151px;
 }
 
 .hero-1-para{
@@ -52,3 +51,27 @@ h1{
     font-family: 'Poppins', sans-serif;
     padding-bottom: 32px;
 }
+
+.button-read-more{
+    background: #385F96;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 1s;
+
+}
+
+.button-read-more:hover{
+    background: #74acbd;
+}
+
+/* .image4{
+    position: absolute;
+    top: 168px;
+    left: 377px;
+    z-index: -1;
+} */
