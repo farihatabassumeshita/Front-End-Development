@@ -1,5 +1,7 @@
  :root{
      --primary-color: #D22116;
+     --black: black;
+     font-size: 10px;
  }
  
  body{
@@ -18,4 +20,44 @@
 
  a{
      text-decoration: none;
+ }
+
+ .container{
+     max-width: 1080px;
+     margin: auto;
+     padding: 0 16px;
+ }
+
+ header{
+     background: white;
+     padding: 1rem 0;
+ }
+
+ p{
+     margin-top: 0;
+ }
+
+ .logo{
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .logo-text{
+     color: var(--primary-color);
+ }
+
+ nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ nav ul{
+     display: flex;
+ }
+
+ nav ul li{
+     padding: 1rem;
+     color: var(--black);
  }
