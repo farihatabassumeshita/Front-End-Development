@@ -1,0 +1,21 @@
+ :root{
+     --primary-color: #D22116;
+ }
+ 
+ body{
+     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #F2F2F2;
+ }
+
+ img, iframe{
+     max-width: 100%;
+ }
+
+ li{
+     list-style: none;
+ }
+
+ a{
+     text-decoration: none;
+ }
