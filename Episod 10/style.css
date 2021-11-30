@@ -10,6 +10,7 @@
 
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 *{
@@ -35,14 +36,18 @@ h1, h2, h3{
 
 h1{
     font-size: 4rem;
+    line-height: 48px;
 }
 
 h2{
     font-size: 3rem;
+    line-height: 32px;
 }
 
 h3{
-    font-size: 2.5rem;
+    font-size: 1.6rem;
+    color: var(--light-grey);
+    line-height: 21px;
 }
 
 p{
@@ -59,8 +64,80 @@ a{
     font-size: 1.8rem;
 }
 
-/* navigation */
+span{
+    color: var(--green);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
+
+/* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav .menu a{
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* hero section */
+.hero{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.left{
+    background-image: url(Rectangle\ 1.png);
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right{
+    background: var(--green);
+}
+
+.content-box{
+    background: white;
+    position: absolute;
+    padding: 3rem;
+    width: 40%;
+    top: 23%;
+    left: 45%;
+}
+
+/* responsive(mobile) */
+@media(max-width:768px){
+
+    /* navigation */
+    nav{
+        flex-direction: column;
+    }
+
+    /* hero section */
+    h1{
+        font-size: 3rem;
+    }
+
+    .hero{
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+
+    .content-box{
+        width: 80%;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
