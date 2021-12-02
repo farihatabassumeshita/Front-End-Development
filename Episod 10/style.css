@@ -49,6 +49,8 @@ h3{
     line-height: 21px;
 }
 
+h4{
+    color: var(--gray);
 span{
     font-size: 1.6rem;
     color: var(--light-grey);
