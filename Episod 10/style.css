@@ -51,6 +51,10 @@ h3{
 
 h4{
     color: var(--gray);
+    font-size: 1.8rem;
+    line-height: 21px;
+}
+
 span{
     font-size: 1.6rem;
     color: var(--light-grey);
@@ -67,7 +71,6 @@ p{
 
 a{
     text-decoration: none;
-    margin: 1.6rem;
     color: var(--gray);
     font-size: 1.8rem;
 }
@@ -94,6 +97,7 @@ nav{
 nav .menu a{
     font-weight: 700;
     line-height: 24px;
+    margin: 1.6rem;
 }
 
 /* hero section */
@@ -127,14 +131,14 @@ nav .menu a{
 .blog-container{
     width: 1080px;
     margin: 0 auto;
-    padding: 0 14rem;
+    padding: 0 auto;
 }
 
 main{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin: 9.3rem 0;
-    grid-row: 5.2rem;
+    margin: 5rem 0;
+    grid-row: 5rem;
 }
 
 .blog{
@@ -287,8 +291,27 @@ aside{
         transform: translate(-50%, -50%);
     }
 
+    /* footer section */
+    .footer main{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width:1082px) {
+
     /* blog section */
+    .blog-container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
     main{
+        grid-template-columns: 1fr;
+    }
+
+    .blog{
         grid-template-columns: 1fr;
     }
 
@@ -297,3 +320,25 @@ aside{
     }
 }
 
+    .blog-content{
+        margin-top: 1.6rem;
+    }
+
+    /* footer section */
+    .footer main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .first, .third{
+        padding-left: 2rem;
+    }
+
+    .second, .forth{
+        padding-left: 6rem;
+    }
+
+    .third, .forth{
+        padding-top: 3rem;
+    }
+
+}
