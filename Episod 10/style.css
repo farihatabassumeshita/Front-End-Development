@@ -46,8 +46,14 @@ h2{
 
 h3{
     font-size: 1.6rem;
+    line-height: 21px;
+}
+
+span{
+    font-size: 1.6rem;
     color: var(--light-grey);
     line-height: 21px;
+    font-weight: 700;
 }
 
 p{
@@ -64,7 +70,7 @@ a{
     font-size: 1.8rem;
 }
 
-span{
+.color-logo{
     color: var(--green);
     font-weight: 700;
     font-size: 3rem;
@@ -115,6 +121,31 @@ nav .menu a{
     left: 45%;
 }
 
+/* blog section */
+.blog-container{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 14rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 9.3rem 0;
+    grid-row: 5.2rem;
+}
+
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5.2rem
+}
+
+.blog-post{
+    background: rgba(52, 114, 47, 0.15);
+    padding: 1.7rem 2rem;
+}
+
 /* responsive(mobile) */
 @media(max-width:768px){
 
@@ -138,6 +169,15 @@ nav .menu a{
         top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    /* blog section */
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    .blog-container{
+        grid-template-columns: 1fr;
     }
 }
 
