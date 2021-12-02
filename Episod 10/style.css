@@ -318,7 +318,6 @@ aside{
     .blog-container{
         grid-template-columns: 1fr;
     }
-}
 
     .blog-content{
         margin-top: 1.6rem;
